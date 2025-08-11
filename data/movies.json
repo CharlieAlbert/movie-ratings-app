@@ -1,0 +1,17 @@
+[
+  {
+    "title": "The Maltese Falcon",
+    "rating": 5,
+    "image_url": "https://images.unsplash.com/photo-1489599005989-f4e3fd5d8c4d?w=400&h=600&fit=crop"
+  },
+  {
+    "title": "Knives Out",
+    "rating": 4,
+    "image_url": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?w=400&h=600&fit=crop"
+  },
+  {
+    "title": "The Walking Dead",
+    "rating": 4,
+    "image_url": null
+  }
+]
