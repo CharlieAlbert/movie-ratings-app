@@ -13,12 +13,10 @@ class MovieRatingsApp:
         self.root.title("Movie Ratings App")
         self.root.geometry("800x600")
 
-        # Set up data file path - points to data/movies.json
         self.data_file = os.path.join(
             os.path.dirname(os.path.dirname(__file__)), "data", "movies.json"
         )
 
-        # Create data directory if it doesn't exist
         os.makedirs(os.path.dirname(self.data_file), exist_ok=True)
 
         self.movies = self.load_movies()
